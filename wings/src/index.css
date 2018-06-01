@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+ 
+}
+
+.back1 {
+  /*background-image: url("/assets/back1.jpg");*/
+  background-color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.layer-a{
+  background-color: rgb(3, 67, 162);
+}
+
+.fixed{
+  position: fixed;
+}
+
+.dapp-title{
+  font-size:90px;
+  color: rgb(233, 232, 231);
+  margin-left: 50px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.dapp-subtitle{
+  color:rgb(221, 221, 221);
+  margin-left:50px;
+  font-size:32px;
+  margin-top: -50px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.bullet{
+  color:rgb(206, 206, 206);
+  margin-left:50px;
+  font-size:22px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.username-control{
+  display: flex;
+  flex-flow: column wrap;
+  width: 500px;
+  position: fixed;
+  top: 231px;
+  left: 640px;
+}
+
+.username-control input{
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  background: none;
+  outline-color: white;
+  outline-width: 1px;
+  border:none;
+  color:white;
+  cursor: pointer;
+  border-bottom: .5px solid whitesmoke;
+}
+
+.username-control input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: .5; /* Firefox */
+}
+
+.username-control button{
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  background: rgb(0, 46, 2);
+  outline-color: white;
+  outline-width: 1px;
+  border:none;
+  color:white;
+  border-radius: 2px;
+}
+
+.username-control button:hover, .sub-header button:hover{
+  background: rgb(34, 34, 34);
+}
+
+.username-control button:active, .sub-header button:active{
+  background: black;
+}
+
+.label{
+  margin-top:-12px;
+  color: rgb(173, 173, 173);
+  font-size:10px;
+
+}
+
+.address{
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.loader-home{
+  position: absolute;
+    right: 16px;
+    top: 19px;
+}
+
+.main-wrapper h1{
+  color: white;
+  margin-left: 50px;
+}
+
+.main-wrapper .dapp-subtitle{
+  color: rgb(221, 221, 221);
+  margin-left: 50px;
+  font-size: 14px;
+  margin-top: -23px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.sub-header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color:white;
+}
+
+.sub-header p{
+  margin-right:150px;
+}
+
+.sub-header button{
+  width: 200px;
+  font-size: 20px;
+  font-size: 24px;
+  background: rgb(0, 46, 2);
+  outline-color: white;
+  outline-width: 1px;
+  border:none;
+  color:white;
+  height: 60px;
+  border-radius: 2px;
+
+}
+
+.questions-list{
+  display: flex;
+  flex-flow: column wrap;
+  margin-left:50px;
+}
+
+.questions-list span{
+ color:whitesmoke;
+ font-size: 11px;
+ margin-bottom: 2px;
+}
+
+.questions-list select{
+ background: none;
+ color:white;
+ width: 100px;
+ margin-top:2px;
+}
+
+
+
+.questions-list div{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top:20px;
+}
+
+.modal-challenge{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.modal-challenge h1{
+  color: black
+}
+
+.modal-challenge{
+  color: black
+}
+
+.modal-challenge input{
+
+  width: 99%;
+ 
+ }
+
+.modal-challenge label{
+  display: block;
+  font-size: 12px;
+  margin-top:15px;
+}
+
+.modal-challenge button{
+  margin-top:15px;
+}
+
+
+.questions-list div.puzzle-card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.questions-list div.puzzle-card button{
+  margin-left: 14px;
+  height: 24px;
+  margin-top: 20px;
+  width: 109%;
+}
+
+
+.questions-list div.puzzle-card p{
+  margin-left: 17px;
+    line-height: 8px;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.questions-list div.puzzle-card span.small-address{
+  margin-left: 0px;
+  line-height: 8px;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: black;
+  display: block;
+}
+
+.questions-list div.puzzle-card h3{
+  margin-left: 17px;
+    line-height: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
